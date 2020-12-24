@@ -1,9 +1,8 @@
 package model
 
-import "cgo/entity"
+import "go_back/entity"
 
 type FeedbackResp struct {
 	entity.Feedback
 	Pictures []entity.Picture
 }
-
