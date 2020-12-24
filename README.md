@@ -2,6 +2,8 @@
 golang搭建原生后台项目
 
 要运行此项目要执行以下两个步骤：<br>
+
+已改为go mod
 ### 1.安装三方库 <br>
     1).go get -u github.com/go-sql-driver/mysql 
     2).go get github.com/satori/go.uuid 
